@@ -1,0 +1,91 @@
+
+/* seletor universal */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* seletor dde tag */
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* seletores aninhados */
+nav a { /* aqui serão aplicados os estilos na tag "nav" a na "a" a está dentro de nav */
+    color: #27ae60;
+}
+
+/* seletor de filhos  */
+nav > a {
+    display: block;
+    color: #f5a623;
+    padding: 10px;
+}
+
+/* seletor de classes */
+.laranja {
+    color: #f5a623;    
+}
+
+.verde {
+    color: #27ae60;
+}
+
+/* seletor de "id" - Quando utilizamos "#", estamos aplicando os estilos aos "id" */
+#secao-principal {
+    padding: 20px;
+    text-align: center;
+
+}
+
+/* Combinação de seletores */
+#secao-principal > * {
+    margin-top: 10px;
+}
+
+input {
+    display: block;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* selector de sequencia */
+input + input {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h2 + p {
+    padding: 30px;
+    
+
+}
+
+/* seletores de propriedade */
+input[name="email"]{
+    background-color: #f5a623;
+
+}
+
+input[type="password"]{
+    background-color: #27ae60;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
