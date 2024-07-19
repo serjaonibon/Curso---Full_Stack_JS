@@ -1,0 +1,35 @@
+:root {
+    --cor-principal: #3c59e7; /**/
+     /* Toda a vez que for uitlizado a variáve "--cor-principal", 
+     ela será substituída pela cor "#3c59e7" */
+     --cor-claro: #eaeaea;
+     --cor-escuro: #232323;
+     /* Podemos salvar qualquer valor de CSS nessas variáveis*/
+     --preenchimento-pq: 0.25rem 1rem;
+     --preenchimento-md: 2rem;
+     --preenchimento-gd: 4rem;
+
+}
+
+
+header {
+    background-color: var(--cor-escuro);
+    color: var(--cor-claro);
+    padding: var(--preenchimento-pq);
+}
+
+section {
+    background-color: var(--cor-claro);
+    padding: var(--preenchimento-md);
+}
+
+div {
+    background-color: var(--cor-principal);
+    color: var(--cor-claro);
+    padding: var(--preenchimento-pq);
+}
+
+.red-box {
+    --cor-principal: #f64348;/* Aqui alteramos a cor da variável"--cor-principal"
+    para que no class="red-box" ele fique com uma cor especificada por nós*/
+}

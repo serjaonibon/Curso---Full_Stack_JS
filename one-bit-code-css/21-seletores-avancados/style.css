@@ -1,0 +1,48 @@
+/* seletor-> :nth-child() */
+
+li:nth-child(2) {
+    color: #f00 ;
+}
+
+li:nth-child(3n) {
+    color: #00f;
+}
+
+li:hover {
+    background-color: #777;
+    color: #fff;
+}
+
+input:focus {   /* os elementos focáveis são os "input" */
+    background-color: #e0c8c8;
+}
+
+.tipo2:focus {
+    background-color: #8ec08e;
+}
+
+.tipo3:focus {
+    background-color: #f00;
+}
+
+/* pseudo elementos-> before e after */
+
+li::before {
+    content:"(antes)" 
+}
+
+li::after {
+    content:"(depois)" 
+}
+
+li:first-child {
+    color: orange;
+}
+
+li:last-child {
+    color: #972c97;
+}
+
+li:not(:first-child) {
+    color: black;
+}
