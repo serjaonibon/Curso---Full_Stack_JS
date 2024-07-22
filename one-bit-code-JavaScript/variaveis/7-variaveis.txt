@@ -1,0 +1,10 @@
+* Comandos para criar variáveis
+    1. var -> Forma antiga de se declara e é pouco utilizado na atualidade
+    2. let ->
+    3. const ->
+
+Podemos declarar variáveis de duas formas
+
+let nomeDoUsuario -> Método camel case
+let nome_do_dsuario -> Método snake case
+

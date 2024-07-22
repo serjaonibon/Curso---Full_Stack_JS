@@ -1,0 +1,2 @@
+// -> comentar somente uma linha
+/**/ -> comentar várias linhas

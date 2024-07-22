@@ -1,0 +1,22 @@
+* Operadores - Permite operações entre valores
+
+1. Aritiméticos
+(+) Soma
+(-) Subtração
+(*) Multiplicação
+(/) Divisão
+(%)  Resto da divisão
+
+2. Atribuição
+(=)
+(+=)
+(-=)
+(*=)
+(/=)
+(%=)
+
+3. Encadeamento
+console.error("ERRO) -> O ponto(.) ele encadeia o "console" com o "error" 
+
+4. Incrementar(++) e Decrementar(--) 
+

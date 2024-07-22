@@ -1,0 +1,16 @@
+Tipos Primitivos
+1. number e bigint
+    number -> Tipo numérico. Em javascript, pode assumir valores com vírgula (5,22), ou valores inteiros (1998).
+    bigint -> Representa números inteiros muito grandes
+
+2. string
+    Devem estar entre aspas. São textos e devem sempre ser colocados entre "aspas". São entendidas como uma lista de caracteres.
+
+3. boolean -> Sõa valores lógicos (verdadeiro ou falso)    
+
+4. null e undefined
+    null ->
+    undefined ->
+
+    
+
