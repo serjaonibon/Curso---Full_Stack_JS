@@ -19,11 +19,11 @@ body {
 a {
     color: var(--color-blue);
 }
-
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.1), var(--color-background));
+    background: linear-gradient(rgba(0,0,0,0.1), var(--color-background));
     position: relative;
     min-height: 100vh;
+
 }
 
 .hero__background {
@@ -58,7 +58,7 @@ a {
     text-align: center;
 }
 
-.section__title {
+.secton__title {
     font-size: 3rem;
     font-weight: 300;
     margin: 4rem auto;
@@ -66,39 +66,42 @@ a {
 
 .section__img,
 .section__img-inline {
-    border-radius: .75rem;
-    /* eixo x, eixo y, blur, expansão/recuo, cor */
-    box-shadow: 0 1rem 2rem -0.5rem rgba(20, 116, 180, 0.25);
+    border-radius: 0.75rem;
+    /*"box-shadow"-> aplia efeito de sombra sobre as imagens
+    eixo x esquerda direita, eixo y baixo cima, blur efeito embaçar, expansão|recuos da sombra, cor*/
+    box-shadow: 0 1rem 2rem -0.5rem rgba(20, 116, 180, 0.25) ;
     object-fit: cover;
     object-position: top;
     position: relative;
     max-height: 30rem;
-    width: 100%;
+    width: 100%;/* Quando aplicamos o "width" em uma imagem, estamos atribuindo
+    uma largura para a imagem no container onde ela está. Conforme o nosso 
+    HTML, aqui esão imagns que estão na <section>*/
 }
 
-.section__text,
+.section__text
 .section__text-inline {
     font-size: 1.25rem;
-    line-height: 1.75;
+    line-height: 1.75rem;
     margin: 4rem auto;
 }
 
 .section__img-inline {
-    border-top-left-radius: 4rem;
+    border-top-left-radius:  4rem;
     border-bottom-right-radius: 4rem;
     float: left;
     margin-right: 4rem;
-    margin-bottom: 2rem;
-    height: 25rem;
+    margin-left: 2rem;
+    height: 25rem ;
     width: 20rem;
 }
 
 .section__text-inline {
     margin-top: 6rem;
-    text-align: left;
+    text-align: left;    
 }
 
-.section__text-inline > p {
+.section__text-inline >p {
     margin-top: 1.5rem;
 }
 
@@ -107,11 +110,12 @@ a {
 }
 
 .gallery__img {
-    border-radius: .75rem;
+    border-radius: 0.75rem;
     height: 16rem;
     width: 16rem;
     object-fit: cover;
-    transform: rotate(-2deg); /* deg = degrees */
+   transform: rotate(-2deg);/* deg = degrees */
+
 }
 
 .gallery__img-wrapper {
@@ -139,13 +143,15 @@ a {
     position: absolute;
     top: 0.25rem;
     right: 1rem;
+
 }
 
 .gallery__img-wrapper:nth-child(even)::after {
     left: 1rem;
 }
 
-footer {
+.footer {
     margin-top: 4rem;
     padding: 2rem;
     text-align: center;
+}
