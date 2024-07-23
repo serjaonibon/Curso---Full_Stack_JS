@@ -1,5 +1,5 @@
+let name = "Serjão"
+let x = 5
 
-    let name = "Sergio" 
-    let x = 5 
-    console.log(name) 
-    console.log(x)
+console.log(name)
+console.log(x)
