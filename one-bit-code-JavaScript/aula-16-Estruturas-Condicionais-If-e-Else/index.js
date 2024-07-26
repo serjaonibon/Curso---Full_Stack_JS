@@ -1,4 +1,7 @@
-const idade = prompt("Informe a sua idade: ")
+/**
+ * 
+ * 
+ * const idade = prompt("Informe a sua idade: ")
 
 if (idade > 18) {
     alert("Você é maior de idade")
@@ -9,3 +12,12 @@ if (idade > 18) {
 } else {
     alert("Vai tirar a catinga do mijo, cabra véi!!!")
 }
+ * 
+ * 
+ */
+
+/**
+ * Operador ternário -> Forma abreviada de utilizar o IF e ELSE
+ */
+const resultado = (6 === 6) ? "Verdadeiro" : "Falso"
+console.log(resultado)
