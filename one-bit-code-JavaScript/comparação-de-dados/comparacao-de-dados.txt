@@ -1,0 +1,7 @@
+
+Retornam um valor boleano => true ou false
+== e ===
+
+!= e !==
+
+>, >=, <, <=
