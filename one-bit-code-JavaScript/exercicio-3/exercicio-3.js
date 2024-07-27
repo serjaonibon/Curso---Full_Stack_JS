@@ -1,5 +1,5 @@
 
-var medida = Number(prompt("Informe o valor em metro(s) a ser convertido: "))
+var medida = parseFloat(prompt("Informe o valor em metro(s) a ser convertido: "))
 var mm = medida * 1000
 var cm = medida * 100
 var dm = medida * 10
@@ -19,25 +19,25 @@ const opcao = prompt(
 
 switch (opcao) {
     case "1" :
-        alert("O resultado será " + Number(km) + " quilometro(s)")
+        alert("O resultado será " + km + " quilometro(s)")
         break
     case "2" :
-        alert("O resultado será " + Number(hm) + " hectoômetro(s)")
+        alert("O resultado será " + hm + " hectoômetro(s)")
         break
     case "3" :
-        alert("O resultado será " + Number(dam) + " decâmetro(s)")
+        alert("O resultado será " + dam + " decâmetro(s)")
         break
     case "4" :
-        alert("O resultado será " + Number(dm) + " decímetro(s)")
+        alert("O resultado será " + dm + " decímetro(s)")
         break
     case "5" :
-        alert("O resultado será " + Number(cm) + " centímetro(s)")
+        alert("O resultado será " + cm + " centímetro(s)")
         break
     case "6" :
-        alert("O resultado será " + Number(mm) + " milímetro(s)")
+        alert("O resultado será " + mm + " milímetro(s)")
         break
     default:
-        alert("Finalizando")
+        alert("Opção Inválida!")
 
 }
 
