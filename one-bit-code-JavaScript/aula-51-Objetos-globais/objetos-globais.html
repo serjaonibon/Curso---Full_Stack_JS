@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetos Globais</title>
+</head>
+
+<body>
+
+    <h1>Objetos Globais</h1>
+
+    <p>
+        Em JS existem três diferentes tipos de objetos: Native(nativos da linguagem), Host (implementação da engine) e
+        User (objetos criados pela aplicação). <br><br>
+
+        Os Objetos Nativos, também chamados de Objetos Globais são os definidos na especificação da linguagem e são
+        implementados em qualquer navegador, idependente da tecnologia utilizada. são exemplos de objetos nativos:
+        Object, String, Array, Function entre outros (veja a lista completa aqui). <br><br>
+
+        Já os Objetos de Host são os implementados pelo ambiente onde são interpretados. Como exemplo, os navegadores
+        possuem objetos do DOM, como DomList, HTMLCollection e outros, já em Node.js os objetos do Host são diferentes,
+        pois não são interpretados em um ambiente de navegação. Exemplos de objetos de host: NodeList, HTMLCollection,
+        Element entre outros.<br><br>
+
+        Por último, os Objetos de Usuário, são os objetos definidos pela aplicação, criados ou importados por alguma
+        biblioteca externa.<br><br>
+
+        Diferentes tipos de navegadores ou versões poderão implementar os objetos de host de modos diferentes. Ainda que
+        haja uma tentativa de padronização, alguns objetos, métodos e propriedades são específicos do host. Os mais
+        usados geralmente são compatíveis. Algumas bibliotecas reduzem a incompatibilidade do código entre os diferentes
+        navegadores, tal como o jQuery e o Babel por exemplo. Como exemplo, navegadores que não implementaram o
+        ECMAScript 2015 (ES6), não possuem o método "find" de Array.<br><br>
+
+        A organização ECMA foi responsável por definir o padrão para tecnologias de suporte para a linguagem JS, chamado
+        de ECMAScript. Em 2015, foi lançada a sexta versão do ECMAScript (ES6).<br><br>
+
+        Outro fator de influência dos objetos é a Engine (mecanismo de renderização) dos navegadores, tal como o V8
+        (Google Chrome e Node.js), SpiderMonkey (Mozzila Firefox), Chakra (IE Edge), JavaScriptCore (Safari) etc.<br><br>
+
+        As bibliotecas, além de resolver os problemas de inconsistências, podem adicionar novas funcionalidades que não
+        existem nativamente. Uma das mais utilizadas, o jQuery, possue diversos métodos que simplificam a codificação,
+        seja adição de classes com o método "addClass", seja com a manipulação da opacidade de um elemento com o
+        "fadeIn".<br><br>
+
+        Atualmente a consistência entre navegadores está aumentando, tornando as bibliotecas desnecessárias dependendo
+        do tipo, propósito e funcionalidades da aplicação.<br><br>
+
+        Para verificar se um objeto, método ou propriedade existe, podemos utilizar o operador typeof. Se não existir, o
+        retorno será undefinded. Ex:
+    </p>
+
+    <img src="./objeto-global.png" alt="Exemplo" width="300" height="150">
+
+    <ul>
+        <h2>
+            <li>Object</li>
+            <li>Array</li>
+            <li>String</li>
+            <li>Number</li>
+            <li>Date</li>
+            <li>Math</li>
+        </h2>
+    </ul>
+
+</body>
+
+</html>
