@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obtendo Elementos HTML do DOM</title>
+</head>
+<body>
+    <!--
+        Vamos começar com uma página HTML simples de onde obteremos 
+    elementos específicos através de cada um dos métodos disponíveis:
+        -->
+    <h1>Obtendo Elementos HTML do DOM</h1>
+
+  <h2>Contatos</h2>
+  
+  <ul id="contact-list">
+    <li>
+      <!--  
+      Um elemento **HTML <label> **representa uma legenda para um item 
+        em uma interface de usuário. Ele pode estar associado 
+        com um elemento de controle, colocando este dentro do 
+        elemento label, ou usando o atributo for. Tal controle é 
+        chamado o controle etiquetado do elemento etiqueta. Um input pode ser 
+        associado a diversas etiquetas (<label>s).
+       -->
+      <label for="contact1">Contato 1</label> 
+      <input type="text" id="contact1" name="contact1" class="contact-input">
+    </li>
+    <li>
+      <label for="contact2">Contato 2</label>
+      <input type="text" id="contact2" name="contact2" class="contact-input">
+    </li>
+    <li>
+      <label for="contact3">Contato 3</label>
+      <input type="text" id="contact3" name="contact3" class="contact-input">
+    </li>
+    <button onclick="show()">
+      Exibir
+    </button>
+  </ul>
+
+  <script src="./index.js"></script>
+</body>
+</body>
+</html>
